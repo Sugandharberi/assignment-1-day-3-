@@ -1,0 +1,8 @@
+def sum_of_squares(nums):
+    """
+    This function takes a list of numbers as input and returns the sum of the squares of all the numbers in the list.
+    """
+    sum = 0
+    for num in nums:
+        sum += num**2
+    return sum
